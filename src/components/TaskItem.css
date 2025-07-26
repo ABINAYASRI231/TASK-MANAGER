@@ -1,0 +1,17 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  background: #0e20c4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.due-date {
+  font-size: 12px;
+  color: #888;
+}
